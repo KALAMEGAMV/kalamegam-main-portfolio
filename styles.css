@@ -92,7 +92,7 @@ html{
 /* Home section styling */
 .home{
     display: flex;
-    background: url("images/bgnext.jpg") no-repeat center fixed;
+    background: url("bgnext.jpg") no-repeat center fixed;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode:overlay;
     background-size: cover;
