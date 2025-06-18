@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio website</title>
+  <script src="https://kit.fontawesome.com/742df807eb.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+</head>
+
+<body>
+  <div class="scroll-up-btn">
+    <i class="fas fa-angle-up"> </i>
+  </div>
+  <nav class="navbar">
+    <div class="max-width">
+      <ul class="menu">
+        <li><a href="#home" class="menu-btn">Home</a></li>
+        <li><a href="#about" class="menu-btn">About</a></li>
+        <li><a href="#services" class="menu-btn">Services</a></li>
+        <li><a href="#skills" class="menu-btn">Skills</a></li>
+        <li><a href="#project" class="menu-btn">Projects</a></li>
+        <li><a href="#education" class="menu-btn">Education</a></li>
+        <li><a href="#hobbies" class="menu-btn">Hobbies</a></li>
+        <li><a href="#contact" class="menu-btn">Contact</a></li>
+      </ul>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home section starts  -->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1">Hello, my name is</div>
+        <div class="text-2">Kalamegam</div>
+        <div class="text-3">And I'm a <span class="typing"></span></div>
+        <a href="https://www.linkedin.com/in/kalamegam-v-324081248/" target="_blank"><i class="fa fa-linkedin"
+            aria-hidden="true"></i></a>
+        <a href="https://github.com/KALAMEGAMV" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href="https://x.com/imKalaii_17?s=08" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/kaalaii_17?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank"><i
+            class="fab fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/vpkalai.ias" target="_blank"><i class="fab fa-facebook"
+            aria-hidden="true"></i>
+
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section starts -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title">About Me</h2>
+      <div class="about-content">
+        <div class="column left">
+          <img src="images/Kalamegam.jpeg" alt="Profile photo" />
+        </div>
+        <div class="column right">
+          <div class="text">
+            I'm Kalamegam and I'm a <span class="typing-2"></span>
+          </div>
+          <p>
+            A passionate <b>Product Engineer</b> with expertise in building scalable, high-performance web applications.
+            I specialize in crafting end-to-end solutions using <b>Java, Spring Boot, AngularJS, MySQL</b>, and
+            <b>AWS</b>,
+            with a strong focus on performance, clean architecture, and user experience.
+          </p>
+          <p></br>
+            <span class="tagline"><b>EXPLORE. LEARN. THINK. CODE. DEVELOP.</b></span>
+          </p>
+          <a href="./Kalamegam.pdf" download="Kalamegam.pdf" target="_blank">
+            Download CV <i class="fas fa-download"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="max-width">
+      <h2 class="title">My Services</h2>
+      <div class="serv-content">
+
+        <div class="card">
+          <div class="box">
+            <i class="fas fa-code"></i>
+            <div class="text">Backend Development</div>
+            <p>
+              Building robust, scalable, and secure backend systems using <b>Java</b>, <b>Spring Boot</b>, and
+              <b>RESTful APIs</b>. Optimized for performance and maintainability.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <i class="fas fa-desktop"></i>
+            <div class="text">Frontend Development</div>
+            <p>
+              Creating dynamic and responsive UIs with <b>AngularJS</b> and <b>HTML/CSS/JS</b>, delivering smooth user
+              experiences across devices.
+            </p>
+          </div>
+        </div>
+
+        <div class="card" style="margin-bottom: 15px;">
+          <div class="box">
+            <i class="fas fa-cloud"></i>
+            <div class="text">Cloud Deployment</div>
+            <p>
+              Deploying and managing applications on <b>AWS</b> using EC2, S3, RDS, and other services. Skilled in CI/CD
+              and environment setup.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <i class="fas fa-database"></i>
+            <div class="text">Database Management</div>
+            <p>
+              Designing and optimizing relational databases using <b>MySQL</b>. Experienced in schema design, indexing,
+              and query optimization.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <i class="fas fa-project-diagram"></i>
+            <div class="text">End-to-End Solutions</div>
+            <p>
+              Offering complete product engineering from architecture design to development and deployment. Focused on
+              business value and user experience.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <i class="fas fa-network-wired"></i>
+            <div class="text">System Design & Architecture</div>
+            <p>
+              Designing scalable system architectures using RESTful APIs, and design principles that ensure performance,
+              reliability, and maintainability.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Skills section starts -->
+  <section class="skills" id="skills">
+    <div class="max-width">
+      <h2 class="title">My Skills</h2>
+      <div class="skills-content">
+
+        <div class="column left">
+          <div class="text">Technical Skills & Experience</div>
+          <p>
+            I specialize in full-stack web development with a strong backend focus using <b>Java</b>, <b>Spring
+              Boot</b>, and <b>MySQL</b>.
+            I build scalable RESTful services, integrate cloud infrastructure using <b>AWS</b>, and develop intuitive
+            frontend interfaces using <b>AngularJS</b>.
+            I’ve contributed to product engineering teams, worked on critical features end-to-end, and optimized
+            application performance across deployments.
+          </p>
+          <p>
+            I’ve also written technical blogs to simplify complex engineering concepts and enjoy solving real-world
+            problems through code.
+          </p>
+        </div>
+
+        <div class="column right">
+          <div class="bars">
+            <div class="info">
+              <span>Java</span>
+              <span>90%</span>
+            </div>
+            <div class="line java"></div>
+          </div>
+
+          <div class="bars">
+            <div class="info">
+              <span>Spring Boot</span>
+              <span>85%</span>
+            </div>
+            <div class="line spring"></div>
+          </div>
+
+          <div class="bars">
+            <div class="info">
+              <span>MySQL</span>
+              <span>85%</span>
+            </div>
+            <div class="line sql"></div>
+          </div>
+
+          <div class="bars">
+            <div class="info">
+              <span>AngularJS</span>
+              <span>80%</span>
+            </div>
+            <div class="line angular"></div>
+          </div>
+
+          <div class="bars">
+            <div class="info">
+              <span>JavaScript</span>
+              <span>70%</span>
+            </div>
+            <div class="line js"></div>
+          </div>
+
+          <div class="bars">
+            <div class="info">
+              <span>HTML & CSS</span>
+              <span>85%</span>
+            </div>
+            <div class="line html"></div>
+          </div>
+
+          <div class="bars">
+            <div class="info">
+              <span>AWS</span>
+              <span>65%</span>
+            </div>
+            <div class="line aws"></div>
+          </div>
+
+          <div class="bars">
+            <div class="info">
+              <span>Git & GitHub</span>
+              <span>80%</span>
+            </div>
+            <div class="line git"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- project section -->
+  <section class="project" id="project">
+    <div class="max-width">
+      <h2 class="title">My projects</h2>
+      <div class="carousel owl-carousel">
+        <div class="card">
+          <div class="box">
+            <img src="images/india-metro.jpg" alt="" />
+            <div class="text">
+              <h5>Indian Metro Metro Train Booking System </h5>
+            </div>
+            <p>
+              It's a common webpage for all metro cities in India.All Metro city stations and fares are stored in the
+              database(MYSQL).
+              Finally hosting our website to AWS cloud.Purpose of our goal is to avoid installing more app's for booking
+              ticket
+              in different metro cities.
+            </p>
+            <p style="text-align: center; background-color: #b737c7; width: 20%;border-radius: 10px;">
+              <a class="button" style="color: white;"
+                href="https://github.com/KALAMEGAMV/Indian-metro-train-booking-system" target="_blank">Link </a>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <img src="images/Hate_speech.png" alt="" />
+            <div class="text">
+              <h4>Hate Speech Detection web</h4>
+            </div>
+            <p>A website that predicts the speech hate or not according to the
+              given input by the users. Tech: HTML, CSS, JS, Machine learning model like LSTM
+              model for predicting
+              speech words, flask for integrating ML models with the website.</p>
+            <p style="text-align: center; background-color: #b737c7; width: 20%;border-radius: 10px;">
+              <a class="button" style="color: white;"
+                href="https://github.com/KALAMEGAMV/Hate_speech_detection_using_ML" target="_blank">Link </a>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <img src="images/med_labs.png" alt="" />
+            <div class="text">
+              <h4>Med-Labs UI design</h4>
+            </div>
+            <p>
+              Using figma tool to design a interface .The main motive of Med-Labs is toprovide a platform that connects
+              patients to the laboratories locatedclose to their location. Hospitals are normal/y crowded so using this
+              webto find the nearest lab in patients location.
+            </p>
+            <p style="text-align: center; background-color: #b737c7; width: 20%;border-radius: 10px;">
+              <a class="button" style="color: white;"
+                href="https://www.figma.com/proto/ASAZIZw5GiLVWiotxKcgya/MEDLAB--LSM-?node-id=1-2&starting-point-node-id=19%3A38"
+                target="_blank">Link </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education section -->
+  <section class="education" id="education">
+    <div class="max-width">
+      <h2 class="title">My Education</h2>
+      <div class="education-content">
+
+        <!-- Left Column: Education -->
+        <div class="column left">
+          <div class="text">
+            <h3>My Education</h3>
+          </div>
+          <p>
+            <b>Vellore Institute of Technology, Vellore, India</b><br />
+            Bachelor of Technology – Information Technology <br />
+            <b>CGPA:</b> 8.28 <br />
+            <span class="small">Sep 2020 – Jul 2024</span><br /><br />
+
+            <b>Govt Hr Sec School, Madurai, Tamil Nadu</b><br />
+            Higher Secondary (Class 12) – 85.84% <br />
+            <span class="small">Jun 2019 – Mar 2020</span><br /><br />
+
+            <b>Govt Hr Sec School, Madurai, Tamil Nadu</b><br />
+            Secondary (Class 10) – 90% <br />
+            <span class="small">Jun 2017 – Apr 2018</span>
+          </p>
+        </div>
+
+        <!-- Right Column: Awards -->
+        <div class="column right">
+          <div class="text">
+            <h3>My Awards & Achievements</h3>
+          </div>
+
+          <p>
+            <b>Solved 300+ Problems on Coding Platforms</b><br />
+            Practiced and solved challenges across platforms like LeetCode and HackerRank.<br />
+            • Earned 1 badge on LeetCode<br />
+            • Earned 5 badges on HackerRank
+          </p><br />
+
+          <p>
+            <b>District 1st Rank in Higher Secondary Exams</b><br />
+            Ranked 1<sup>st</sup> among all rural government schools in the district.
+          </p><br />
+
+          <p>
+            <b>Young Achiever Award</b><br />
+            Recognized for academic excellence among students from rural government schools.
+          </p><br />
+
+          <p>
+            <b>Merit Scholarship Recipient – STARS Scheme, VIT</b><br />
+            Secured merit-based financial support under the Support The Advancement of Rural Students (STARS)
+            initiative.
+          </p><br />
+
+          <p>
+            <b>National Means-cum-Merit Scholarship (NMMS)</b><br />
+            Selected through the national-level NMMS exam for consistent academic performance.
+          </p><br />
+
+          <p>
+            <b>School Leadership</b><br />
+            Led 50+ students, promoted academic studies and extracurricular participation, and fostered teamwork during
+            2018–2020.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Hobbies section starts  -->
+  <section class="hobbies" id="hobbies">
+  <div class="max-width">
+    <h2 class="title">My Hobbies</h2>
+    <div class="carousel owl-carousel">
+
+      <div class="card">
+        <div class="box">
+          <img src="images/cricket.jpeg" alt="Playing Cricket" />
+          <div class="text">Playing Cricket</div>
+          <p>
+            I've been passionate about cricket since Class 6. I enjoy both playing on the ground and watching intense matches on TV.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="box">
+          <img src="images/chess.jpg" alt="Playing Chess" />
+          <div class="text">Chess</div>
+          <p>
+            Chess has been my go-to mind game since school. It helps me sharpen my strategic thinking and patience.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="box">
+          <img src="images/badminton.jpg" alt="Playing Badminton" />
+          <div class="text">Playing Badminton</div>
+          <p>
+            I picked up badminton in my college times. It's now one of my favorite ways to stay active and competitive.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="box">
+          <img src="images/music.jpg" alt="Listening to Music" />
+          <div class="text">Listening to Music</div>
+          <p>
+            Music keeps me energized and focused. Whether working or relaxing, I enjoy exploring different genres that match my mood.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="box">
+          <img src="images/travel.jpeg" alt="Traveling" />
+          <div class="text">Traveling</div>
+          <p>
+            I love exploring new places and cultures. Traveling helps me refresh my mind and gain new perspectives beyond daily routines.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact section starts  -->
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title">Contact me</h2>
+      <div class="contact-content">
+        <div class="column left">
+          <div class="icons">
+            <div class="row">
+              <i class="fas fa-user"></i>
+              <div class="info">
+                <div class="head">Name</div>
+                <div class="sub-title">Kalamegam</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="info">
+                <div class="head">Address</div>
+                <div class="sub-title">Madurai, Tamil Nadu</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-envelope"></i>
+              <div class="info">
+                <div class="head">Email</div>
+                <div class="sub-title">kalamegam2003@gmail.com</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section starts  -->
+  <footer>
+    <span>Created By <a href="#">Kalamegam</a> |
+      <span class="far fa-copyright"></span> 2023 All rights reserved.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
