@@ -15,13 +15,13 @@ $(document).ready(function () {
 
 // typing animation script 
   var typed = new Typed(".typing", {
-    strings: ["Web and Backend Developer", "Tech Enthusiast", "Coder", "Team worker"],
+    strings: ["Web Developer", "Tech Enthusiast", "Coder", "Team worker"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
   });
   var typed = new Typed(".typing-2", {
-    strings: ["Product Engineer", "Web and Backend Developer", "Tech Enthusiast", "Problem Solver"],
+    strings: ["Product Engineer", "Web Developer", "Tech Enthusiast", "Problem Solver"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
@@ -85,3 +85,4 @@ $(document).ready(function () {
     },
   });
 });
+
